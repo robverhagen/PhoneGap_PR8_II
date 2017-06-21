@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+header {
+	background-color: #C6F6F7;
+	
+}
+
+.imgheader {
+	margin: 0 auto;
+	
+}
+
+.robnavbar {
+	background-color:#9CD5CC;
+		
+}
+.moreheader {
+background-color: #FF6269;
+	padding-top: 40px;
+	
+}
+
+
+/* increase the size of glyphicon by using the font size - why? mobile devices with very high density screens (some Android and iPhone devices have upwards of 200 to 300 pixels per inch, making your 11- and 12-pixel fonts very difficult to see! - using em make it proportionaly to the divice - defould: 1em = 12pt = 16px = 100%*/
+.myglyp{
+	font-size:3em;
+	width: 50px;
+	display: block;/*in order to center the span needs a size if not it will precive as empty*/
+	margin: 0 auto;
+}
+
+.myimgset {
+	margin: 0 auto;
+	max-width: 250px;
+	padding-bottom: 6px;
+	
+}

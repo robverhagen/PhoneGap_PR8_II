@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+.icon{
+	max-width: 250px;
+	margin: 0 auto;
+	display: block;
+}
+
+.icon-box{
+	height: 300px;
+	margin: 0 auto;
+	display: block;
+}

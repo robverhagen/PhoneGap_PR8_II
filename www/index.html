@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>I Love Bootstrap</title>
+    <meta charset="utf-8">
+    
+    <!-- Preventing shrinking in mobiles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Latest compiled and minified CSS. Link found on: Bootstrap website -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- our own CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<!-- header with non-responsive image -->
+<!--
+<div class="container-fluid" style="background-color: #C6F6F7" align="center">
+	<img src="images/header.jpg">
+</div>
+-->
+
+<!-- header with responsive image -->
+<div class="container-fluid" style="background-color: #C6F6F7" align="center">
+	<img src="img/header.jpg" class="img-responsive">
+</div>
+
+<!-- navigation bar -->
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+
+		<!-- logo -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand">BOOTSTRAP HOLIDAYS</a>
+		</div>
+
+		<!--other menu items -->
+		<div class="collapse navbar-collapse" id="mainNavBar">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- 1st section -->
+<div class="container-fluid">
+	<h2>Choose your destination according to</h2>
+	<br>
+	<div class="row" >
+		<div class="col-sm-4" >
+			<img class="icon" src="img/beach.png">
+			<h3>The Weather</h3>
+			<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+			<br>
+		</div>
+		<div class="col-sm-4" >
+			<img class="icon" src="img/location.png">
+			<h3>The Location</h3>
+			<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+			<br>
+		</div>
+		<div class="col-sm-4" >
+			<img class="icon" src="img/reviews.png">
+			<h3>The Reviews</h3>
+			<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+			<br>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid" style="background-color: #FF6269">
+	<br>
+	<br>
+	<h2>Explore other interesting things:</h2>
+	<img class="icon" src="img/arrow.png" width="60px" height="60px">
+	<br>
+</div>
+
+<!-- 2nd section -->
+<div class="container-fluid">
+	<div class="row" >
+		<div class="col-sm-6 col-md-3" style="background-color: #44284F">
+			<br>
+			<img class="icon-box" src="img/tickets.png">
+			<h1>Tickets</h1>
+			<br>
+		</div>
+		<div class="col-sm-6 col-md-3" style="background-color: #73B5A2">
+			<br>	
+			<img class="icon-box" src="img/fooddrinks.png">
+			<h1>Restaurants</h1>
+			<br>
+		</div>
+		<div class="col-sm-6 col-md-3" style="background-color: #FFAB45">
+			<br>	
+			<img class="icon-box" src="img/visas.png">
+			<h1>Visas</h1>
+			<br>
+		</div>
+		<div class="col-sm-6 col-md-3" style="background-color: #C6F6F7">
+			<br>	
+			<img class="icon-box" src="img/best-beaches.png">
+			<h1>Best Beaches</h1>
+			<br>
+		</div>
+	</div>
+</div>
+
+<!-- 3rd section -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-6" style="background-color: #FFBE78">
+			<br>	
+			<img class="icon-box" src="img/map.png">
+			<h1>Maps and Guides</h1>
+			<br>
+		</div>
+		<div class="col-sm-6 col-md-3" style="background-color: #44284F">
+			<br>	
+			<img class="icon-box" src="img/bag.png">
+			<h1>Bagagge</h1>
+			<br>
+		</div>
+		<div class="col-sm-6 col-md-3" style="background-color: #73B5A2">
+			<br>	
+			<img class="icon-box" src="img/discounts.png">
+			<h1>Discounts</h1>
+			<br>
+		</div>
+	</div>
+</div>
+
+<!-- 4th section -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-6">
+			<br>
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="http://www.youtube.com/embed/aaExiKsvt9A"></iframe>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<h3>Something else</h3>
+		</div>
+	</div>
+</div>
+
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins). Link found on: Google Developers Hosted Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    
+    <!-- Latest compiled and minified JavaScript. Link found on: Bootstrap website -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</body>
+    
+</html>
